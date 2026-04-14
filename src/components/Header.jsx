@@ -62,7 +62,7 @@ export default function Header() {
         onClick={toggleTheme}
         aria-label="Toggle dark mode"
         className="flex items-center justify-center rounded-full active:opacity-60 transition-opacity"
-        style={{ width: 60, color: 'rgba(255,255,255,0.75)', justifyContent: 'flex-end' }}
+        style={{ color: 'rgba(255,255,255,0.75)' }}
       >
         {dark ? <Sun size={18} strokeWidth={2} /> : <Moon size={18} strokeWidth={2} />}
       </button>
