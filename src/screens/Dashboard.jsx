@@ -171,7 +171,7 @@ export default function Dashboard() {
       </motion.div>
 
       {/* ── Section header ─────────────────────────── */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 20px 8px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 16px 8px' }}>
         <p style={{ fontSize: 16, fontWeight: 700, color: 'var(--text)' }}>Spending</p>
         <p style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 500 }}>
           {sorted.filter(d => d.spent > 0).length} active

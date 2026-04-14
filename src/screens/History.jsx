@@ -213,7 +213,7 @@ export default function History() {
       </div>
 
       {/* Summary bar */}
-      <div style={{ padding: '0 20px 10px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      <div style={{ padding: '0 16px 10px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <p style={{ fontSize: 12, color: 'var(--text-muted)', fontWeight: 500 }}>
           {filtered.length} transaction{filtered.length !== 1 ? 's' : ''}
         </p>
