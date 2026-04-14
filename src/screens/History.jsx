@@ -183,7 +183,7 @@ export default function History() {
   const allChips   = ['All', ...CATEGORIES]
 
   return (
-    <div style={{ background: 'var(--bg)', minHeight: '100dvh', paddingTop: 64, paddingBottom: 96 }}>
+    <div style={{ background: 'var(--bg)', minHeight: '100dvh', paddingTop: "calc(64px + env(safe-area-inset-top))", paddingBottom: 96 }}>
 
       {/* Filter chips */}
       <div style={{ display: 'flex', gap: 8, padding: '12px 16px', overflowX: 'auto', scrollbarWidth: 'none' }}>

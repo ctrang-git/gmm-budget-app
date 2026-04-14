@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header
       className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-40 flex items-center justify-between px-4"
-      style={{ background: '#4B2683', height: 56 }}
+      style={{ background: '#4B2683', paddingTop: 'env(safe-area-inset-top)', height: 'calc(56px + env(safe-area-inset-top))' }}
     >
       {/* Logo mark */}
       <div className="flex items-center gap-2">

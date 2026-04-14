@@ -34,7 +34,7 @@ export default function Profile() {
   const dark = useDark()
 
   return (
-    <div style={{ background: 'var(--bg)', minHeight: '100dvh', paddingTop: 64, paddingBottom: 96 }}>
+    <div style={{ background: 'var(--bg)', minHeight: '100dvh', paddingTop: "calc(64px + env(safe-area-inset-top))", paddingBottom: 96 }}>
       <motion.div
         variants={container}
         initial="hidden"

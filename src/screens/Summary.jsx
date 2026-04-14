@@ -72,7 +72,7 @@ export default function Summary() {
   }
 
   return (
-    <div style={{ background: 'var(--bg)', minHeight: '100dvh', paddingTop: 64, paddingBottom: 96 }}>
+    <div style={{ background: 'var(--bg)', minHeight: '100dvh', paddingTop: "calc(64px + env(safe-area-inset-top))", paddingBottom: 96 }}>
       <motion.div variants={container} initial="hidden" animate="show" style={{ padding: '12px 16px 0', display: 'flex', flexDirection: 'column', gap: 12 }}>
 
         {/* Insight card */}
