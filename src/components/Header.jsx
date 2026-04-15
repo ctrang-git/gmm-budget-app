@@ -15,20 +15,15 @@ export default function Header() {
 
   return (
     <header
-      className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-40 flex items-center justify-between px-4"
-      style={{ background: '#4B2683', paddingTop: 'env(safe-area-inset-top)', height: 'calc(56px + env(safe-area-inset-top))' }}
+      className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] z-40 flex items-center justify-between"
+      style={{ background: '#4B2683', paddingTop: 'env(safe-area-inset-top)', paddingLeft: 16, paddingRight: 16, height: 'calc(56px + env(safe-area-inset-top))' }}
     >
       {/* Logo mark */}
-      <div className="flex items-center gap-2">
-        <div
-          className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0"
-          style={{ background: '#FFC423', color: '#4B2683' }}
-        >
-          G
-        </div>
-        <span className="text-sm font-semibold" style={{ color: '#FFC423' }}>
-          GMM
-        </span>
+      <div
+        className="rounded-full flex items-center justify-center font-bold flex-shrink-0"
+        style={{ background: '#FFC423', color: '#4B2683', fontSize: 10, letterSpacing: '0.04em', paddingLeft: 10, paddingRight: 10, height: 28 }}
+      >
+        GMM
       </div>
 
       {/* Month navigation — always visible on all tabs */}
