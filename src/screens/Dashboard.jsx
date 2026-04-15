@@ -94,7 +94,7 @@ export default function Dashboard() {
           width: 220,
           height: 220,
           borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(255,196,35,0.18) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(123,69,184,0.45) 0%, transparent 70%)',
           pointerEvents: 'none',
         }} />
 

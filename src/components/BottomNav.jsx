@@ -31,15 +31,14 @@ export default function BottomNav() {
                   whileTap={{ scale: 0.92 }}
                   onClick={openAddSheet}
                   style={{
-                    width: 56,
-                    height: 56,
+                    width: 52,
+                    height: 52,
                     borderRadius: '50%',
                     background: '#FFC423',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    boxShadow: '0 4px 16px rgba(255,196,35,0.45)',
-                    marginBottom: 8,
+                    boxShadow: '0 3px 10px rgba(255,196,35,0.30)',
                   }}
                   aria-label="Add transaction"
                 >
